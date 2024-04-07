@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d71wtiqo783q"
-path="res://.godot/imported/benchCushionLow_SW.png-b83de4170cdd22c119fc86a1c6b07afe.ctex"
+path="res://.godot/imported/benchCushionLow_SW.png-dfd5419b0ca2097da69f821fd831a683.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/benchCushionLow_SW.png"
-dest_files=["res://.godot/imported/benchCushionLow_SW.png-b83de4170cdd22c119fc86a1c6b07afe.ctex"]
+source_file="res://assets/furniture/benchCushionLow_SW.png"
+dest_files=["res://.godot/imported/benchCushionLow_SW.png-dfd5419b0ca2097da69f821fd831a683.ctex"]
 
 [params]
 

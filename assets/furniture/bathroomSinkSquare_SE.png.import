@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmy44lfyljfpv"
-path="res://.godot/imported/bathroomSinkSquare_SE.png-1320f2530912de27ca90913d5cfea44d.ctex"
+path="res://.godot/imported/bathroomSinkSquare_SE.png-3e14277abc382af82f529fbcc91a7210.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bathroomSinkSquare_SE.png"
-dest_files=["res://.godot/imported/bathroomSinkSquare_SE.png-1320f2530912de27ca90913d5cfea44d.ctex"]
+source_file="res://assets/furniture/bathroomSinkSquare_SE.png"
+dest_files=["res://.godot/imported/bathroomSinkSquare_SE.png-3e14277abc382af82f529fbcc91a7210.ctex"]
 
 [params]
 

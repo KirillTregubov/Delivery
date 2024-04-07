@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdpgvavk1ngvo"
-path="res://.godot/imported/lampSquareCeiling_SW.png-f6e6be730e2d7d006a963cc7a82a547a.ctex"
+path="res://.godot/imported/lampSquareCeiling_SW.png-d3b43981f8399eebb2eabd419ab808d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/lampSquareCeiling_SW.png"
-dest_files=["res://.godot/imported/lampSquareCeiling_SW.png-f6e6be730e2d7d006a963cc7a82a547a.ctex"]
+source_file="res://assets/furniture/lampSquareCeiling_SW.png"
+dest_files=["res://.godot/imported/lampSquareCeiling_SW.png-d3b43981f8399eebb2eabd419ab808d5.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmjoyxr8m8l6d"
-path="res://.godot/imported/toiletSquare_NW.png-ed2d28752d02893d1df3787d0b5700d2.ctex"
+path="res://.godot/imported/toiletSquare_NW.png-53fa2fd8d9c1b2db539d2b920df7375c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/toiletSquare_NW.png"
-dest_files=["res://.godot/imported/toiletSquare_NW.png-ed2d28752d02893d1df3787d0b5700d2.ctex"]
+source_file="res://assets/furniture/toiletSquare_NW.png"
+dest_files=["res://.godot/imported/toiletSquare_NW.png-53fa2fd8d9c1b2db539d2b920df7375c.ctex"]
 
 [params]
 

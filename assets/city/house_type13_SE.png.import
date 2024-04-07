@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mqy72hp1wpcl"
-path="res://.godot/imported/house_type13_SE.png-2e6f2d6020d9596263e5830e19834b76.ctex"
+path="res://.godot/imported/house_type13_SE.png-7378293e920e256e1423f78a74c37c95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/City Kit - Suburban/Isometric/house_type13_SE.png"
-dest_files=["res://.godot/imported/house_type13_SE.png-2e6f2d6020d9596263e5830e19834b76.ctex"]
+source_file="res://assets/city/house_type13_SE.png"
+dest_files=["res://.godot/imported/house_type13_SE.png-7378293e920e256e1423f78a74c37c95.ctex"]
 
 [params]
 

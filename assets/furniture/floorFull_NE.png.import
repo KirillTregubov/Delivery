@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://08qk6be7hqn2"
-path="res://.godot/imported/floorFull_NE.png-acd8ca201dce63ad810b9dee6c345af6.ctex"
+path="res://.godot/imported/floorFull_NE.png-0c3db51d0920fc25873c42617f73d465.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/floorFull_NE.png"
-dest_files=["res://.godot/imported/floorFull_NE.png-acd8ca201dce63ad810b9dee6c345af6.ctex"]
+source_file="res://assets/furniture/floorFull_NE.png"
+dest_files=["res://.godot/imported/floorFull_NE.png-0c3db51d0920fc25873c42617f73d465.ctex"]
 
 [params]
 

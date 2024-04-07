@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2s31grc5sted"
-path="res://.godot/imported/tree_large_NW.png-72b280314cbd7677fd907985fa376bbb.ctex"
+path="res://.godot/imported/tree_large_NW.png-4a5d643616a6f677ef44dc0887fa374c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/City Kit - Suburban/Isometric/tree_large_NW.png"
-dest_files=["res://.godot/imported/tree_large_NW.png-72b280314cbd7677fd907985fa376bbb.ctex"]
+source_file="res://assets/city/tree_large_NW.png"
+dest_files=["res://.godot/imported/tree_large_NW.png-4a5d643616a6f677ef44dc0887fa374c.ctex"]
 
 [params]
 

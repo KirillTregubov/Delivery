@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0flh47wab452"
-path="res://.godot/imported/bookcaseOpen_NW.png-8c54445ec8fa1929f3cbf7472666bcfc.ctex"
+path="res://.godot/imported/bookcaseOpen_NW.png-f77c9b43b7c3eb2e9620e95e5b4679ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bookcaseOpen_NW.png"
-dest_files=["res://.godot/imported/bookcaseOpen_NW.png-8c54445ec8fa1929f3cbf7472666bcfc.ctex"]
+source_file="res://assets/furniture/bookcaseOpen_NW.png"
+dest_files=["res://.godot/imported/bookcaseOpen_NW.png-f77c9b43b7c3eb2e9620e95e5b4679ee.ctex"]
 
 [params]
 

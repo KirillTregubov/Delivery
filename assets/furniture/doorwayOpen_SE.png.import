@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbfhnp585dsi2"
-path="res://.godot/imported/doorwayOpen_SE.png-9c7a90c6bf4ab6ed01bca64fe9d63b48.ctex"
+path="res://.godot/imported/doorwayOpen_SE.png-a419a7d595e7e367a55414c817837e3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/doorwayOpen_SE.png"
-dest_files=["res://.godot/imported/doorwayOpen_SE.png-9c7a90c6bf4ab6ed01bca64fe9d63b48.ctex"]
+source_file="res://assets/furniture/doorwayOpen_SE.png"
+dest_files=["res://.godot/imported/doorwayOpen_SE.png-a419a7d595e7e367a55414c817837e3e.ctex"]
 
 [params]
 

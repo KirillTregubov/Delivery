@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0byruusc3ar2"
-path="res://.godot/imported/kitchenCabinetDrawer_SW.png-d57a11876e559c257d5c75bd154da14d.ctex"
+path="res://.godot/imported/kitchenCabinetDrawer_SW.png-4d97ff2a251654654e6bed7d0fa511e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenCabinetDrawer_SW.png"
-dest_files=["res://.godot/imported/kitchenCabinetDrawer_SW.png-d57a11876e559c257d5c75bd154da14d.ctex"]
+source_file="res://assets/furniture/kitchenCabinetDrawer_SW.png"
+dest_files=["res://.godot/imported/kitchenCabinetDrawer_SW.png-4d97ff2a251654654e6bed7d0fa511e4.ctex"]
 
 [params]
 

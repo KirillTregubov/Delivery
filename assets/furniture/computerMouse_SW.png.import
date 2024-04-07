@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnw1r8o0y3tf3"
-path="res://.godot/imported/computerMouse_SW.png-dd65eebca05bfb19d8064a3b3ed52fc7.ctex"
+path="res://.godot/imported/computerMouse_SW.png-bd31868b0e19734ba8bdd57c56209c57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/computerMouse_SW.png"
-dest_files=["res://.godot/imported/computerMouse_SW.png-dd65eebca05bfb19d8064a3b3ed52fc7.ctex"]
+source_file="res://assets/furniture/computerMouse_SW.png"
+dest_files=["res://.godot/imported/computerMouse_SW.png-bd31868b0e19734ba8bdd57c56209c57.ctex"]
 
 [params]
 

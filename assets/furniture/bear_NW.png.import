@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4hdec7506rqs"
-path="res://.godot/imported/bear_NW.png-54c84c71ac67fda0a9c6d424b1c82dde.ctex"
+path="res://.godot/imported/bear_NW.png-f2f202aa7e0667040360e232b9e4d17e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bear_NW.png"
-dest_files=["res://.godot/imported/bear_NW.png-54c84c71ac67fda0a9c6d424b1c82dde.ctex"]
+source_file="res://assets/furniture/bear_NW.png"
+dest_files=["res://.godot/imported/bear_NW.png-f2f202aa7e0667040360e232b9e4d17e.ctex"]
 
 [params]
 

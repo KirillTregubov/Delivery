@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bw25rpmgyugip"
-path="res://.godot/imported/kitchenStove_SE.png-1c3cee256534472e5d64d75cf4726195.ctex"
+path="res://.godot/imported/kitchenStove_SE.png-d0396d93d9fa7a827f354b883c35624d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenStove_SE.png"
-dest_files=["res://.godot/imported/kitchenStove_SE.png-1c3cee256534472e5d64d75cf4726195.ctex"]
+source_file="res://assets/furniture/kitchenStove_SE.png"
+dest_files=["res://.godot/imported/kitchenStove_SE.png-d0396d93d9fa7a827f354b883c35624d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk76aowkwhvir"
-path="res://.godot/imported/speakerSmall_SW.png-6dcc5a5cfa2de79d1110ea6bfe4f133b.ctex"
+path="res://.godot/imported/speakerSmall_SW.png-e5f31b841e2c7062e13ec1921d774b1e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/speakerSmall_SW.png"
-dest_files=["res://.godot/imported/speakerSmall_SW.png-6dcc5a5cfa2de79d1110ea6bfe4f133b.ctex"]
+source_file="res://assets/furniture/speakerSmall_SW.png"
+dest_files=["res://.godot/imported/speakerSmall_SW.png-e5f31b841e2c7062e13ec1921d774b1e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qu5nfnq612br"
-path="res://.godot/imported/lampRoundTable_NW.png-969ff9b000e9ac8e199aefd9486ceba2.ctex"
+path="res://.godot/imported/lampRoundTable_NW.png-5673d4dcdbdce603407d9a6e33bdd166.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/lampRoundTable_NW.png"
-dest_files=["res://.godot/imported/lampRoundTable_NW.png-969ff9b000e9ac8e199aefd9486ceba2.ctex"]
+source_file="res://assets/furniture/lampRoundTable_NW.png"
+dest_files=["res://.godot/imported/lampRoundTable_NW.png-5673d4dcdbdce603407d9a6e33bdd166.ctex"]
 
 [params]
 

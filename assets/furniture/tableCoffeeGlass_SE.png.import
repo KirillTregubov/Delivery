@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds6i8vi6c8h2a"
-path="res://.godot/imported/tableCoffeeGlass_SE.png-d82277e0282b53eb0820ad90c39ba257.ctex"
+path="res://.godot/imported/tableCoffeeGlass_SE.png-92458f1297037bd4bfa4efa68c539866.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/tableCoffeeGlass_SE.png"
-dest_files=["res://.godot/imported/tableCoffeeGlass_SE.png-d82277e0282b53eb0820ad90c39ba257.ctex"]
+source_file="res://assets/furniture/tableCoffeeGlass_SE.png"
+dest_files=["res://.godot/imported/tableCoffeeGlass_SE.png-92458f1297037bd4bfa4efa68c539866.ctex"]
 
 [params]
 

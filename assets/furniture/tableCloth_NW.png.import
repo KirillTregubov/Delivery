@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddmar827vv2v2"
-path="res://.godot/imported/tableCloth_NW.png-cb54deb1b962cb16c4b6d51fac185cef.ctex"
+path="res://.godot/imported/tableCloth_NW.png-ddaba8a62bf61f1811d543fa4aff6d1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/tableCloth_NW.png"
-dest_files=["res://.godot/imported/tableCloth_NW.png-cb54deb1b962cb16c4b6d51fac185cef.ctex"]
+source_file="res://assets/furniture/tableCloth_NW.png"
+dest_files=["res://.godot/imported/tableCloth_NW.png-ddaba8a62bf61f1811d543fa4aff6d1d.ctex"]
 
 [params]
 

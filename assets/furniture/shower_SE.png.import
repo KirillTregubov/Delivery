@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwsckt8w4yf3d"
-path="res://.godot/imported/shower_SE.png-5054689f183b03928daf320d3cd31d1c.ctex"
+path="res://.godot/imported/shower_SE.png-e5a306d631bbab6f4ed0307477dd9f46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/shower_SE.png"
-dest_files=["res://.godot/imported/shower_SE.png-5054689f183b03928daf320d3cd31d1c.ctex"]
+source_file="res://assets/furniture/shower_SE.png"
+dest_files=["res://.godot/imported/shower_SE.png-e5a306d631bbab6f4ed0307477dd9f46.ctex"]
 
 [params]
 

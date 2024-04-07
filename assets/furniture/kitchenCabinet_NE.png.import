@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnyihgt0l0xmc"
-path="res://.godot/imported/kitchenCabinet_NE.png-b31a1902ba89ce4d187def8d3051610a.ctex"
+path="res://.godot/imported/kitchenCabinet_NE.png-876e4b893d375b4b7f835f40ad554ec2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenCabinet_NE.png"
-dest_files=["res://.godot/imported/kitchenCabinet_NE.png-b31a1902ba89ce4d187def8d3051610a.ctex"]
+source_file="res://assets/furniture/kitchenCabinet_NE.png"
+dest_files=["res://.godot/imported/kitchenCabinet_NE.png-876e4b893d375b4b7f835f40ad554ec2.ctex"]
 
 [params]
 

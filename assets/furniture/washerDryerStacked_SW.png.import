@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b70drai08apig"
-path="res://.godot/imported/washerDryerStacked_SW.png-5bd57604e5ec21e6d6da7a520489b7f0.ctex"
+path="res://.godot/imported/washerDryerStacked_SW.png-fc1c71d6d89bc6fc9727c6ebd1847aea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/washerDryerStacked_SW.png"
-dest_files=["res://.godot/imported/washerDryerStacked_SW.png-5bd57604e5ec21e6d6da7a520489b7f0.ctex"]
+source_file="res://assets/furniture/washerDryerStacked_SW.png"
+dest_files=["res://.godot/imported/washerDryerStacked_SW.png-fc1c71d6d89bc6fc9727c6ebd1847aea.ctex"]
 
 [params]
 

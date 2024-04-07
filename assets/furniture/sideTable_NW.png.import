@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm2cipctwy3ki"
-path="res://.godot/imported/sideTable_NW.png-56eef592f7c0842e88f583551e37b11f.ctex"
+path="res://.godot/imported/sideTable_NW.png-0a8655253fc446c8b40c3b3c18306e24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/sideTable_NW.png"
-dest_files=["res://.godot/imported/sideTable_NW.png-56eef592f7c0842e88f583551e37b11f.ctex"]
+source_file="res://assets/furniture/sideTable_NW.png"
+dest_files=["res://.godot/imported/sideTable_NW.png-0a8655253fc446c8b40c3b3c18306e24.ctex"]
 
 [params]
 

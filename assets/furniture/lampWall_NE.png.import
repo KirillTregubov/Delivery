@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnajcutlq6g66"
-path="res://.godot/imported/lampWall_NE.png-c70800bb9f89dbf5086e39a8a855929f.ctex"
+path="res://.godot/imported/lampWall_NE.png-f7e0070c18a5895f19323ad03ed5afe1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/lampWall_NE.png"
-dest_files=["res://.godot/imported/lampWall_NE.png-c70800bb9f89dbf5086e39a8a855929f.ctex"]
+source_file="res://assets/furniture/lampWall_NE.png"
+dest_files=["res://.godot/imported/lampWall_NE.png-f7e0070c18a5895f19323ad03ed5afe1.ctex"]
 
 [params]
 

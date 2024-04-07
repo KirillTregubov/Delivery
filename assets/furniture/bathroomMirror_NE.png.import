@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b85a85ixkb0o5"
-path="res://.godot/imported/bathroomMirror_NE.png-2f53331a4cfde8b728e1c605dfdb42b4.ctex"
+path="res://.godot/imported/bathroomMirror_NE.png-7f03e815a423b7417a76896f30ec1000.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bathroomMirror_NE.png"
-dest_files=["res://.godot/imported/bathroomMirror_NE.png-2f53331a4cfde8b728e1c605dfdb42b4.ctex"]
+source_file="res://assets/furniture/bathroomMirror_NE.png"
+dest_files=["res://.godot/imported/bathroomMirror_NE.png-7f03e815a423b7417a76896f30ec1000.ctex"]
 
 [params]
 

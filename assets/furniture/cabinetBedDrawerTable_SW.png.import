@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkqcj8byfew5l"
-path="res://.godot/imported/cabinetBedDrawerTable_SW.png-1620eedf97a0646a2195abb6a77e6fc0.ctex"
+path="res://.godot/imported/cabinetBedDrawerTable_SW.png-5e91314d54c6c6d58259a32f708eade9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/cabinetBedDrawerTable_SW.png"
-dest_files=["res://.godot/imported/cabinetBedDrawerTable_SW.png-1620eedf97a0646a2195abb6a77e6fc0.ctex"]
+source_file="res://assets/furniture/cabinetBedDrawerTable_SW.png"
+dest_files=["res://.godot/imported/cabinetBedDrawerTable_SW.png-5e91314d54c6c6d58259a32f708eade9.ctex"]
 
 [params]
 

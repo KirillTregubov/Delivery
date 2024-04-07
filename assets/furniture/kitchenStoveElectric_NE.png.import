@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc8fctgsmeyyo"
-path="res://.godot/imported/kitchenStoveElectric_NE.png-3344e802d86dbf25d5d3cd110d03ab90.ctex"
+path="res://.godot/imported/kitchenStoveElectric_NE.png-de6c6a94ae9eaab7bcb8cfb94285bc61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenStoveElectric_NE.png"
-dest_files=["res://.godot/imported/kitchenStoveElectric_NE.png-3344e802d86dbf25d5d3cd110d03ab90.ctex"]
+source_file="res://assets/furniture/kitchenStoveElectric_NE.png"
+dest_files=["res://.godot/imported/kitchenStoveElectric_NE.png-de6c6a94ae9eaab7bcb8cfb94285bc61.ctex"]
 
 [params]
 

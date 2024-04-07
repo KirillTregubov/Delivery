@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi7y2soeqtg3y"
-path="res://.godot/imported/radio_SW.png-7c80b6fdc1f27774773468a7ab4fe721.ctex"
+path="res://.godot/imported/radio_SW.png-64a12e1de2c6d000941b57a0858b8080.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/radio_SW.png"
-dest_files=["res://.godot/imported/radio_SW.png-7c80b6fdc1f27774773468a7ab4fe721.ctex"]
+source_file="res://assets/furniture/radio_SW.png"
+dest_files=["res://.godot/imported/radio_SW.png-64a12e1de2c6d000941b57a0858b8080.ctex"]
 
 [params]
 

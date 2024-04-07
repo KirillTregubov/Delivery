@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvcqdirfsqeei"
-path="res://.godot/imported/rugRound_SW.png-0f671fb666fe67bd08e83b8b0eacdc30.ctex"
+path="res://.godot/imported/rugRound_SW.png-109c8614ae3bcb8ed1dc29c97f73c628.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/rugRound_SW.png"
-dest_files=["res://.godot/imported/rugRound_SW.png-0f671fb666fe67bd08e83b8b0eacdc30.ctex"]
+source_file="res://assets/furniture/rugRound_SW.png"
+dest_files=["res://.godot/imported/rugRound_SW.png-109c8614ae3bcb8ed1dc29c97f73c628.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://p68uhiuwyybl"
-path="res://.godot/imported/televisionAntenna_SW.png-69ca8d8e2eb0c9d61d356f13f4ee00ba.ctex"
+path="res://.godot/imported/televisionAntenna_SW.png-4df5878398ac2f4632ef59046fb1aa0c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/televisionAntenna_SW.png"
-dest_files=["res://.godot/imported/televisionAntenna_SW.png-69ca8d8e2eb0c9d61d356f13f4ee00ba.ctex"]
+source_file="res://assets/furniture/televisionAntenna_SW.png"
+dest_files=["res://.godot/imported/televisionAntenna_SW.png-4df5878398ac2f4632ef59046fb1aa0c.ctex"]
 
 [params]
 

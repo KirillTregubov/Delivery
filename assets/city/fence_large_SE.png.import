@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwrbqrgtvxk7f"
-path="res://.godot/imported/fence_large_SE.png-a9088eb2feaee36938004ab78a15ea5a.ctex"
+path="res://.godot/imported/fence_large_SE.png-0a532b7b336037376a8db013f138c184.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/City Kit - Suburban/Isometric/fence_large_SE.png"
-dest_files=["res://.godot/imported/fence_large_SE.png-a9088eb2feaee36938004ab78a15ea5a.ctex"]
+source_file="res://assets/city/fence_large_SE.png"
+dest_files=["res://.godot/imported/fence_large_SE.png-0a532b7b336037376a8db013f138c184.ctex"]
 
 [params]
 

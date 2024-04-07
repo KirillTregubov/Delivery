@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0xxu6p13226m"
-path="res://.godot/imported/hoodLarge_NW.png-e74aeb2e6abdbc2c9a0d0573d5ce0dc9.ctex"
+path="res://.godot/imported/hoodLarge_NW.png-11b079e2c45185f4588ea86a2651d0d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/hoodLarge_NW.png"
-dest_files=["res://.godot/imported/hoodLarge_NW.png-e74aeb2e6abdbc2c9a0d0573d5ce0dc9.ctex"]
+source_file="res://assets/furniture/hoodLarge_NW.png"
+dest_files=["res://.godot/imported/hoodLarge_NW.png-11b079e2c45185f4588ea86a2651d0d4.ctex"]
 
 [params]
 

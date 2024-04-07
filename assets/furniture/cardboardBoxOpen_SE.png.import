@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdttu6hbcknj8"
-path="res://.godot/imported/cardboardBoxOpen_SE.png-fafb3012b297f93edb39f490973766da.ctex"
+path="res://.godot/imported/cardboardBoxOpen_SE.png-904f55062f0131b47e667515c1870805.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/cardboardBoxOpen_SE.png"
-dest_files=["res://.godot/imported/cardboardBoxOpen_SE.png-fafb3012b297f93edb39f490973766da.ctex"]
+source_file="res://assets/furniture/cardboardBoxOpen_SE.png"
+dest_files=["res://.godot/imported/cardboardBoxOpen_SE.png-904f55062f0131b47e667515c1870805.ctex"]
 
 [params]
 

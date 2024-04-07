@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3ivd7eamngxj"
-path="res://.godot/imported/toaster_SW.png-1f184a5327e2af4e069bea6c40c0f23a.ctex"
+path="res://.godot/imported/toaster_SW.png-ceab463a9c909665e937cd0dc1978354.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/toaster_SW.png"
-dest_files=["res://.godot/imported/toaster_SW.png-1f184a5327e2af4e069bea6c40c0f23a.ctex"]
+source_file="res://assets/furniture/toaster_SW.png"
+dest_files=["res://.godot/imported/toaster_SW.png-ceab463a9c909665e937cd0dc1978354.ctex"]
 
 [params]
 

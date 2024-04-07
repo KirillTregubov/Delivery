@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1pwe2igrb2w1"
-path="res://.godot/imported/wallWindow_SW.png-f75dc2b925a734b980dbed2741759fae.ctex"
+path="res://.godot/imported/wallWindow_SW.png-021749f9c51909f7e5c0001ce1b046ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/wallWindow_SW.png"
-dest_files=["res://.godot/imported/wallWindow_SW.png-f75dc2b925a734b980dbed2741759fae.ctex"]
+source_file="res://assets/furniture/wallWindow_SW.png"
+dest_files=["res://.godot/imported/wallWindow_SW.png-021749f9c51909f7e5c0001ce1b046ec.ctex"]
 
 [params]
 

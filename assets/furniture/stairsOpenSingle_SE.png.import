@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfgv3nlemkdtv"
-path="res://.godot/imported/stairsOpenSingle_SE.png-7378e51536ea59bd1e90aa6994c2ce0e.ctex"
+path="res://.godot/imported/stairsOpenSingle_SE.png-fd48225a65da7bb2136476ec9fd9811d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/stairsOpenSingle_SE.png"
-dest_files=["res://.godot/imported/stairsOpenSingle_SE.png-7378e51536ea59bd1e90aa6994c2ce0e.ctex"]
+source_file="res://assets/furniture/stairsOpenSingle_SE.png"
+dest_files=["res://.godot/imported/stairsOpenSingle_SE.png-fd48225a65da7bb2136476ec9fd9811d.ctex"]
 
 [params]
 

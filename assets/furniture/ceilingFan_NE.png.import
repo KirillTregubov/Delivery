@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdj1376jenlpb"
-path="res://.godot/imported/ceilingFan_NE.png-3e008b13979b9cea7bfa7f3005290305.ctex"
+path="res://.godot/imported/ceilingFan_NE.png-fe8a49e6f4c624c1ac4b8e4ee08587f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/ceilingFan_NE.png"
-dest_files=["res://.godot/imported/ceilingFan_NE.png-3e008b13979b9cea7bfa7f3005290305.ctex"]
+source_file="res://assets/furniture/ceilingFan_NE.png"
+dest_files=["res://.godot/imported/ceilingFan_NE.png-fe8a49e6f4c624c1ac4b8e4ee08587f8.ctex"]
 
 [params]
 

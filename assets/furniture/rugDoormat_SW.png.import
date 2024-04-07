@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2u82fwgd0kgk"
-path="res://.godot/imported/rugDoormat_SW.png-70b4ae566dc33c22baec42b80ffaf955.ctex"
+path="res://.godot/imported/rugDoormat_SW.png-6b3c11207cf19d95080eb09efc619a28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/rugDoormat_SW.png"
-dest_files=["res://.godot/imported/rugDoormat_SW.png-70b4ae566dc33c22baec42b80ffaf955.ctex"]
+source_file="res://assets/furniture/rugDoormat_SW.png"
+dest_files=["res://.godot/imported/rugDoormat_SW.png-6b3c11207cf19d95080eb09efc619a28.ctex"]
 
 [params]
 

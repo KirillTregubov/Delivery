@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6q5goqhohp66"
-path="res://.godot/imported/cabinetTelevisionDoors_NE.png-917a9085e641ef7c31906520fdcd3ce2.ctex"
+path="res://.godot/imported/cabinetTelevisionDoors_NE.png-41ee4311f0a10d5a8ae877fb148548da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/cabinetTelevisionDoors_NE.png"
-dest_files=["res://.godot/imported/cabinetTelevisionDoors_NE.png-917a9085e641ef7c31906520fdcd3ce2.ctex"]
+source_file="res://assets/furniture/cabinetTelevisionDoors_NE.png"
+dest_files=["res://.godot/imported/cabinetTelevisionDoors_NE.png-41ee4311f0a10d5a8ae877fb148548da.ctex"]
 
 [params]
 

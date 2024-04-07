@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bajci1mc4u81r"
-path="res://.godot/imported/kitchenFridge_NW.png-5d7b7cef4997fae3232d167e6f08c913.ctex"
+path="res://.godot/imported/kitchenFridge_NW.png-dd77c9aef57e7ce284beefa74c4e3f05.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenFridge_NW.png"
-dest_files=["res://.godot/imported/kitchenFridge_NW.png-5d7b7cef4997fae3232d167e6f08c913.ctex"]
+source_file="res://assets/furniture/kitchenFridge_NW.png"
+dest_files=["res://.godot/imported/kitchenFridge_NW.png-dd77c9aef57e7ce284beefa74c4e3f05.ctex"]
 
 [params]
 

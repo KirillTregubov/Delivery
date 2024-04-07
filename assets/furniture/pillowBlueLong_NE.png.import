@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ykeejcllh1wx"
-path="res://.godot/imported/pillowBlueLong_NE.png-808cb588426e0fe823f5f6ee2696873b.ctex"
+path="res://.godot/imported/pillowBlueLong_NE.png-f8ecb35b8210c560b8db1a16493707ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/pillowBlueLong_NE.png"
-dest_files=["res://.godot/imported/pillowBlueLong_NE.png-808cb588426e0fe823f5f6ee2696873b.ctex"]
+source_file="res://assets/furniture/pillowBlueLong_NE.png"
+dest_files=["res://.godot/imported/pillowBlueLong_NE.png-f8ecb35b8210c560b8db1a16493707ff.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwfjbr3wbfjfy"
-path="res://.godot/imported/trashcan_NE.png-5bf4fb27b4db798826c2a2b293e0bc53.ctex"
+path="res://.godot/imported/trashcan_NE.png-27fbc612cd515a91bc918b444e222336.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/trashcan_NE.png"
-dest_files=["res://.godot/imported/trashcan_NE.png-5bf4fb27b4db798826c2a2b293e0bc53.ctex"]
+source_file="res://assets/furniture/trashcan_NE.png"
+dest_files=["res://.godot/imported/trashcan_NE.png-27fbc612cd515a91bc918b444e222336.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci87u7mw7bf8w"
-path="res://.godot/imported/rugRectangle_NE.png-bad1a6c7c425a573ee49efb62abd669e.ctex"
+path="res://.godot/imported/rugRectangle_NE.png-cd46a94f8ec5a8c0d27b779ce079f98c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/rugRectangle_NE.png"
-dest_files=["res://.godot/imported/rugRectangle_NE.png-bad1a6c7c425a573ee49efb62abd669e.ctex"]
+source_file="res://assets/furniture/rugRectangle_NE.png"
+dest_files=["res://.godot/imported/rugRectangle_NE.png-cd46a94f8ec5a8c0d27b779ce079f98c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byaoor0uswj5r"
-path="res://.godot/imported/path_short_SE.png-0846d9c036bf1ba8c9c707401dcc2913.ctex"
+path="res://.godot/imported/path_short_SE.png-f7a890771bd495b56b76204fd09fd7fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/City Kit - Suburban/Isometric/path_short_SE.png"
-dest_files=["res://.godot/imported/path_short_SE.png-0846d9c036bf1ba8c9c707401dcc2913.ctex"]
+source_file="res://assets/city/path_short_SE.png"
+dest_files=["res://.godot/imported/path_short_SE.png-f7a890771bd495b56b76204fd09fd7fc.ctex"]
 
 [params]
 

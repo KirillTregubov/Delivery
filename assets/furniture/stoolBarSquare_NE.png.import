@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u4jctb2is4fc"
-path="res://.godot/imported/stoolBarSquare_NE.png-60581ad30a8e3fcb42e7754efa7e59ce.ctex"
+path="res://.godot/imported/stoolBarSquare_NE.png-5de46ec5ad4d75e3e2748a69cb485339.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/stoolBarSquare_NE.png"
-dest_files=["res://.godot/imported/stoolBarSquare_NE.png-60581ad30a8e3fcb42e7754efa7e59ce.ctex"]
+source_file="res://assets/furniture/stoolBarSquare_NE.png"
+dest_files=["res://.godot/imported/stoolBarSquare_NE.png-5de46ec5ad4d75e3e2748a69cb485339.ctex"]
 
 [params]
 

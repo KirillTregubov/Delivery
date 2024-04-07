@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg37qjakiqwvj"
-path="res://.godot/imported/coatRackStanding_SW.png-59e7336239da27d0108283aa0cd04963.ctex"
+path="res://.godot/imported/coatRackStanding_SW.png-cb1abe8d91a49c972bee5fd422694ef4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/coatRackStanding_SW.png"
-dest_files=["res://.godot/imported/coatRackStanding_SW.png-59e7336239da27d0108283aa0cd04963.ctex"]
+source_file="res://assets/furniture/coatRackStanding_SW.png"
+dest_files=["res://.godot/imported/coatRackStanding_SW.png-cb1abe8d91a49c972bee5fd422694ef4.ctex"]
 
 [params]
 

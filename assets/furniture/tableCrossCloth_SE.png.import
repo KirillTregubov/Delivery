@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chy1uejf8ww2b"
-path="res://.godot/imported/tableCrossCloth_SE.png-878f376ed90e110338bdbd514aece2b4.ctex"
+path="res://.godot/imported/tableCrossCloth_SE.png-cc7b771b23a1227ce2ee2cff17af6428.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/tableCrossCloth_SE.png"
-dest_files=["res://.godot/imported/tableCrossCloth_SE.png-878f376ed90e110338bdbd514aece2b4.ctex"]
+source_file="res://assets/furniture/tableCrossCloth_SE.png"
+dest_files=["res://.godot/imported/tableCrossCloth_SE.png-cc7b771b23a1227ce2ee2cff17af6428.ctex"]
 
 [params]
 

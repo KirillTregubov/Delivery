@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbql6l51dtvg3"
-path="res://.godot/imported/chairDesk_NW.png-33e7cf330f2dd60663e1c044aadd5fd3.ctex"
+path="res://.godot/imported/chairDesk_NW.png-17e1f178b18e34c29dcf0000bfb2369e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/chairDesk_NW.png"
-dest_files=["res://.godot/imported/chairDesk_NW.png-33e7cf330f2dd60663e1c044aadd5fd3.ctex"]
+source_file="res://assets/furniture/chairDesk_NW.png"
+dest_files=["res://.godot/imported/chairDesk_NW.png-17e1f178b18e34c29dcf0000bfb2369e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4kgtc2pirmh1"
-path="res://.godot/imported/bathtub_NE.png-409ff1cfe3e9aa73af79e8617272cddb.ctex"
+path="res://.godot/imported/bathtub_NE.png-f5fc558c17242b7e3897e447d033aec1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bathtub_NE.png"
-dest_files=["res://.godot/imported/bathtub_NE.png-409ff1cfe3e9aa73af79e8617272cddb.ctex"]
+source_file="res://assets/furniture/bathtub_NE.png"
+dest_files=["res://.godot/imported/bathtub_NE.png-f5fc558c17242b7e3897e447d033aec1.ctex"]
 
 [params]
 

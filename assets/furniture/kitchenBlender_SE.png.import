@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5y8fufn7w7jd"
-path="res://.godot/imported/kitchenBlender_SE.png-bad4c210beb0b3558b6ec68e80282723.ctex"
+path="res://.godot/imported/kitchenBlender_SE.png-a84d072428b76ae4bf6ae6ff848b39e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenBlender_SE.png"
-dest_files=["res://.godot/imported/kitchenBlender_SE.png-bad4c210beb0b3558b6ec68e80282723.ctex"]
+source_file="res://assets/furniture/kitchenBlender_SE.png"
+dest_files=["res://.godot/imported/kitchenBlender_SE.png-a84d072428b76ae4bf6ae6ff848b39e8.ctex"]
 
 [params]
 

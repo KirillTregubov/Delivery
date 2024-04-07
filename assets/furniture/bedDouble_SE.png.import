@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djqsbpa78gtsx"
-path="res://.godot/imported/bedDouble_SE.png-0e136ca1567905c8a7d2d699ebef38bc.ctex"
+path="res://.godot/imported/bedDouble_SE.png-d5c449c53da89a8683a8e0a5b92f8ba0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/bedDouble_SE.png"
-dest_files=["res://.godot/imported/bedDouble_SE.png-0e136ca1567905c8a7d2d699ebef38bc.ctex"]
+source_file="res://assets/furniture/bedDouble_SE.png"
+dest_files=["res://.godot/imported/bedDouble_SE.png-d5c449c53da89a8683a8e0a5b92f8ba0.ctex"]
 
 [params]
 

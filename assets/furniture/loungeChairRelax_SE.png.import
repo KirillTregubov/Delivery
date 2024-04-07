@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbv82ailhbsur"
-path="res://.godot/imported/loungeChairRelax_SE.png-397e3d3776eb247d5703815ea8a3e10f.ctex"
+path="res://.godot/imported/loungeChairRelax_SE.png-c10a25df77c3207e448269e9146a6a65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/loungeChairRelax_SE.png"
-dest_files=["res://.godot/imported/loungeChairRelax_SE.png-397e3d3776eb247d5703815ea8a3e10f.ctex"]
+source_file="res://assets/furniture/loungeChairRelax_SE.png"
+dest_files=["res://.godot/imported/loungeChairRelax_SE.png-c10a25df77c3207e448269e9146a6a65.ctex"]
 
 [params]
 

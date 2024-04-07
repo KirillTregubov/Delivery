@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qdbjvgw86j4s"
-path="res://.godot/imported/rugSquare_NE.png-75dbfaf8f66e8dc79dad11a7cdeb18af.ctex"
+path="res://.godot/imported/rugSquare_NE.png-d4610a79b40e539dcdf2ff94cd7e8c69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/rugSquare_NE.png"
-dest_files=["res://.godot/imported/rugSquare_NE.png-75dbfaf8f66e8dc79dad11a7cdeb18af.ctex"]
+source_file="res://assets/furniture/rugSquare_NE.png"
+dest_files=["res://.godot/imported/rugSquare_NE.png-d4610a79b40e539dcdf2ff94cd7e8c69.ctex"]
 
 [params]
 

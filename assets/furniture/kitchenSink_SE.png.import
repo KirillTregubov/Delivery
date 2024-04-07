@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mf3plbjbiee7"
-path="res://.godot/imported/kitchenSink_SE.png-91455614acf608bd2c7446561dc8684d.ctex"
+path="res://.godot/imported/kitchenSink_SE.png-05d577fc1dcbc04cb1730382b939b9bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenSink_SE.png"
-dest_files=["res://.godot/imported/kitchenSink_SE.png-91455614acf608bd2c7446561dc8684d.ctex"]
+source_file="res://assets/furniture/kitchenSink_SE.png"
+dest_files=["res://.godot/imported/kitchenSink_SE.png-05d577fc1dcbc04cb1730382b939b9bb.ctex"]
 
 [params]
 

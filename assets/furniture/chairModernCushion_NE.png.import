@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf6qoti5e7k5x"
-path="res://.godot/imported/chairModernCushion_NE.png-ec77f2da3aacab5f2300c48fbd38baff.ctex"
+path="res://.godot/imported/chairModernCushion_NE.png-c4fe561e9fde28c8c5fa43d70ab3c40d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/chairModernCushion_NE.png"
-dest_files=["res://.godot/imported/chairModernCushion_NE.png-ec77f2da3aacab5f2300c48fbd38baff.ctex"]
+source_file="res://assets/furniture/chairModernCushion_NE.png"
+dest_files=["res://.godot/imported/chairModernCushion_NE.png-c4fe561e9fde28c8c5fa43d70ab3c40d.ctex"]
 
 [params]
 

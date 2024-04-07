@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3dmjwop4xa62"
-path="res://.godot/imported/dryer_SE.png-0eef62bd7278782689840be81ed657a1.ctex"
+path="res://.godot/imported/dryer_SE.png-307422b5bb0a30229e5fb765840cf4b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/dryer_SE.png"
-dest_files=["res://.godot/imported/dryer_SE.png-0eef62bd7278782689840be81ed657a1.ctex"]
+source_file="res://assets/furniture/dryer_SE.png"
+dest_files=["res://.godot/imported/dryer_SE.png-307422b5bb0a30229e5fb765840cf4b0.ctex"]
 
 [params]
 

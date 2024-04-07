@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cac5wddfixol4"
-path="res://.godot/imported/tableRound_SE.png-b5f7ee7114da67a9a933bd60d9e46aba.ctex"
+path="res://.godot/imported/tableRound_SE.png-f08053ad2b6e8c1496705b8a0ead5940.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/tableRound_SE.png"
-dest_files=["res://.godot/imported/tableRound_SE.png-b5f7ee7114da67a9a933bd60d9e46aba.ctex"]
+source_file="res://assets/furniture/tableRound_SE.png"
+dest_files=["res://.godot/imported/tableRound_SE.png-f08053ad2b6e8c1496705b8a0ead5940.ctex"]
 
 [params]
 

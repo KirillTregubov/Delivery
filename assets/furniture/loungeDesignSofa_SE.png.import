@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ufmjsn2qhxy5"
-path="res://.godot/imported/loungeDesignSofa_SE.png-1688d13eb113daa22a2c3e6214193cbc.ctex"
+path="res://.godot/imported/loungeDesignSofa_SE.png-8375c0c5a2ee2904b7beb5ee555522a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/loungeDesignSofa_SE.png"
-dest_files=["res://.godot/imported/loungeDesignSofa_SE.png-1688d13eb113daa22a2c3e6214193cbc.ctex"]
+source_file="res://assets/furniture/loungeDesignSofa_SE.png"
+dest_files=["res://.godot/imported/loungeDesignSofa_SE.png-8375c0c5a2ee2904b7beb5ee555522a6.ctex"]
 
 [params]
 

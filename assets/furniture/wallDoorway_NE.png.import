@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dicsnt423l10y"
-path="res://.godot/imported/wallDoorway_NE.png-dcd0df08ed85cad0afab557a79ebaff5.ctex"
+path="res://.godot/imported/wallDoorway_NE.png-a2232b3f7f2118d2dfcd80f0d00d25bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/wallDoorway_NE.png"
-dest_files=["res://.godot/imported/wallDoorway_NE.png-dcd0df08ed85cad0afab557a79ebaff5.ctex"]
+source_file="res://assets/furniture/wallDoorway_NE.png"
+dest_files=["res://.godot/imported/wallDoorway_NE.png-a2232b3f7f2118d2dfcd80f0d00d25bf.ctex"]
 
 [params]
 

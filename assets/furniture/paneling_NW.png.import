@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8c64s36etfyo"
-path="res://.godot/imported/paneling_NW.png-c270d161258afd118b5ec401cf5af0a6.ctex"
+path="res://.godot/imported/paneling_NW.png-fd84ce3847047737fbe9af9501aec542.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/paneling_NW.png"
-dest_files=["res://.godot/imported/paneling_NW.png-c270d161258afd118b5ec401cf5af0a6.ctex"]
+source_file="res://assets/furniture/paneling_NW.png"
+dest_files=["res://.godot/imported/paneling_NW.png-fd84ce3847047737fbe9af9501aec542.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxhmm2cg8i2yk"
-path="res://.godot/imported/televisionVintage_NE.png-7cd4a519ea26e60531644869ced810b8.ctex"
+path="res://.godot/imported/televisionVintage_NE.png-65d264c08cc02cc0432d68f73549bdc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/televisionVintage_NE.png"
-dest_files=["res://.godot/imported/televisionVintage_NE.png-7cd4a519ea26e60531644869ced810b8.ctex"]
+source_file="res://assets/furniture/televisionVintage_NE.png"
+dest_files=["res://.godot/imported/televisionVintage_NE.png-65d264c08cc02cc0432d68f73549bdc2.ctex"]
 
 [params]
 

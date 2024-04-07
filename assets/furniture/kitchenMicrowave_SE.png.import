@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clkv0u5ubf514"
-path="res://.godot/imported/kitchenMicrowave_SE.png-be0bba1bce31a7bd89c77e6674440968.ctex"
+path="res://.godot/imported/kitchenMicrowave_SE.png-41c3024541aa16ec14a3c6dfc2449156.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/kitchenMicrowave_SE.png"
-dest_files=["res://.godot/imported/kitchenMicrowave_SE.png-be0bba1bce31a7bd89c77e6674440968.ctex"]
+source_file="res://assets/furniture/kitchenMicrowave_SE.png"
+dest_files=["res://.godot/imported/kitchenMicrowave_SE.png-41c3024541aa16ec14a3c6dfc2449156.ctex"]
 
 [params]
 

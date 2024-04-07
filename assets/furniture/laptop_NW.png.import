@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s71h65ulvqts"
-path="res://.godot/imported/laptop_NW.png-048e4b45705df99e32b006551ff8aef4.ctex"
+path="res://.godot/imported/laptop_NW.png-59ee3bffa4a0b7a3e67c7cf74e6d7356.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Furniture Kit/Isometric/laptop_NW.png"
-dest_files=["res://.godot/imported/laptop_NW.png-048e4b45705df99e32b006551ff8aef4.ctex"]
+source_file="res://assets/furniture/laptop_NW.png"
+dest_files=["res://.godot/imported/laptop_NW.png-59ee3bffa4a0b7a3e67c7cf74e6d7356.ctex"]
 
 [params]
 
