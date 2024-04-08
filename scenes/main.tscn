@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=3 uid="uid://j6fd65vwcnil"]
+[gd_scene load_steps=20 format=3 uid="uid://j6fd65vwcnil"]
 
 [ext_resource type="Texture2D" uid="uid://uv1h7wgx6t13" path="res://assets/furniture/floorFull_SE.png" id="1_gth3s"]
 [ext_resource type="Texture2D" uid="uid://mf3plbjbiee7" path="res://assets/furniture/kitchenSink_SE.png" id="2_a6u06"]
@@ -11,13 +11,12 @@
 [ext_resource type="Texture2D" uid="uid://clkv0u5ubf514" path="res://assets/furniture/kitchenMicrowave_SE.png" id="9_1tlke"]
 [ext_resource type="Texture2D" uid="uid://b1mgavekhlouk" path="res://assets/furniture/kitchenStoveElectric_SE.png" id="10_2rak7"]
 [ext_resource type="Texture2D" uid="uid://bw25rpmgyugip" path="res://assets/furniture/kitchenStove_SE.png" id="11_4rp0a"]
-[ext_resource type="Texture2D" uid="uid://b3uw67e5q1pql" path="res://assets/furniture/kitchenCabinetUpperDouble_SE.png" id="12_qt7v5"]
+[ext_resource type="PackedScene" uid="uid://ccwxgiqkeocda" path="res://scenes/cabinet/cabinet_upper.tscn" id="12_4aocj"]
 [ext_resource type="Texture2D" uid="uid://b8iqon8qix8wy" path="res://assets/furniture/kitchenFridgeSmall_SE.png" id="13_h0i67"]
+[ext_resource type="Texture2D" uid="uid://dib7kksp6rxb4" path="res://assets/custom/salmon-fish.png" id="14_2tcld"]
 [ext_resource type="Script" path="res://scenes/camera.gd" id="14_hetk2"]
 [ext_resource type="Texture2D" uid="uid://bd0crbhgi4oko" path="res://assets/food and kitchenware icons/FOOD.png" id="15_8yelj"]
-[ext_resource type="Script" path="res://scenes/player/player.gd" id="15_unelf"]
-[ext_resource type="Texture2D" uid="uid://dfmervhhhyd3b" path="res://assets/Isometric_Frog_Character/CharacterSheet_CharacterFront.png" id="15_xwmhl"]
-[ext_resource type="Texture2D" uid="uid://qahgxmjidt62" path="res://assets/Isometric_Frog_Character/CharacterSheet_FroggoBack.png" id="18_c78de"]
+[ext_resource type="PackedScene" uid="uid://bob2qfhv6qgqo" path="res://scenes/player/player.tscn" id="15_srj6w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j6a84"]
 texture = ExtResource("1_gth3s")
@@ -30,172 +29,6 @@ tile_shape = 1
 tile_size = Vector2i(208, 147)
 sources/1 = SubResource("TileSetAtlasSource_j6a84")
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_s4uuo"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(0, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_dss5b"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(350, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mq5or"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(700, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3tjo1"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(1050, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_avl81"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(0, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_nfgn7"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(350, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_22coh"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(700, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_t76p0"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(1050, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_01oiw"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(1400, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_28p6n"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(0, 700, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_upp2f"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(350, 700, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xfxxb"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(700, 700, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_4i2q6"]
-atlas = ExtResource("15_xwmhl")
-region = Rect2(1050, 700, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_h0lkp"]
-atlas = ExtResource("18_c78de")
-region = Rect2(0, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_bgst0"]
-atlas = ExtResource("18_c78de")
-region = Rect2(350, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_743hk"]
-atlas = ExtResource("18_c78de")
-region = Rect2(700, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0mw77"]
-atlas = ExtResource("18_c78de")
-region = Rect2(1050, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_57nyg"]
-atlas = ExtResource("18_c78de")
-region = Rect2(1400, 0, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_4qqbq"]
-atlas = ExtResource("18_c78de")
-region = Rect2(0, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_7u4a1"]
-atlas = ExtResource("18_c78de")
-region = Rect2(350, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ohir1"]
-atlas = ExtResource("18_c78de")
-region = Rect2(700, 350, 350, 350)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_lccry"]
-atlas = ExtResource("18_c78de")
-region = Rect2(1050, 350, 350, 350)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_ghr1y"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_s4uuo")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dss5b")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mq5or")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_3tjo1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_avl81")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_nfgn7")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_22coh")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_t76p0")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_01oiw")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_28p6n")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_upp2f")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_xfxxb")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_4i2q6")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_h0lkp")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_bgst0")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_743hk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0mw77")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_57nyg")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_4qqbq")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_7u4a1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ohir1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_lccry")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_me188"]
-radius = 25.0
-height = 60.0
-
 [node name="Node2D" type="Node2D"]
 y_sort_enabled = true
 
@@ -204,11 +37,11 @@ position = Vector2(-73, 62)
 texture = ExtResource("2_a6u06")
 
 [node name="Box" type="Sprite2D" parent="."]
-position = Vector2(522, 34.5)
+position = Vector2(703, 63.5)
 texture = ExtResource("3_6pjrv")
 
 [node name="BoxOpen" type="Sprite2D" parent="."]
-position = Vector2(599, 42.5)
+position = Vector2(780, 71.5)
 texture = ExtResource("4_0k31g")
 
 [node name="Blender" type="Sprite2D" parent="."]
@@ -261,7 +94,7 @@ region_rect = Rect2(78, 376, 23, 14)
 
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="Counter"]
 position = Vector2(153, 65)
-polygon = PackedVector2Array(-1, -23, 29, 4, -2, 24, -29, 5)
+polygon = PackedVector2Array(-1, -21, 27, 5, -2, 24, -29, 5)
 
 [node name="CoffeeMachine" type="Sprite2D" parent="."]
 position = Vector2(75, 150.5)
@@ -283,13 +116,7 @@ texture = ExtResource("10_2rak7")
 position = Vector2(248, 287.5)
 texture = ExtResource("11_4rp0a")
 
-[node name="CabinetUpper" type="Sprite2D" parent="."]
-position = Vector2(377.5, 287)
-texture = ExtResource("12_qt7v5")
-
-[node name="Freezer" type="Sprite2D" parent="."]
-position = Vector2(467.5, 287)
-texture = ExtResource("13_h0i67")
+[node name="CabinetUpper" parent="." instance=ExtResource("12_4aocj")]
 
 [node name="FloorTileMap" type="TileMap" parent="."]
 y_sort_enabled = true
@@ -309,17 +136,20 @@ position_smoothing_enabled = true
 editor_draw_limits = true
 script = ExtResource("14_hetk2")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(237, 64)
-floor_stop_on_slope = false
-floor_block_on_wall = false
-script = ExtResource("15_unelf")
+[node name="Player" parent="." instance=ExtResource("15_srj6w")]
+position = Vector2(330, 78)
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
-scale = Vector2(0.3, 0.3)
-sprite_frames = SubResource("SpriteFrames_ghr1y")
-frame = 13
+[node name="Freezer" type="StaticBody2D" parent="."]
+y_sort_enabled = true
+position = Vector2(557, 72)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(3, 20)
-shape = SubResource("CapsuleShape2D_me188")
+[node name="FreezerSprite" type="Sprite2D" parent="Freezer"]
+texture = ExtResource("13_h0i67")
+
+[node name="SalmonFish" type="Sprite2D" parent="Freezer/FreezerSprite"]
+position = Vector2(15.5, -3)
+texture = ExtResource("14_2tcld")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Freezer"]
+position = Vector2(-570, -66)
+polygon = PackedVector2Array(543, 89, 583, 57, 604, 74, 585.74, 87.8262, 561, 107)

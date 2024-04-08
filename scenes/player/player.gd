@@ -1,8 +1,10 @@
 extends CharacterBody2D
+class_name Player
 
 const SPEED = 200.0
 
 @onready var map = $"../FloorTileMap"
+var item = null
 
 #const JUMP_VELOCITY = -400.0
 #
@@ -11,6 +13,9 @@ const SPEED = 200.0
 
 func _ready() -> void:
 	pass
+
+#func _process(delta: float) -> void:
+	#pass
 
 func _physics_process(delta: float) -> void:
 	## Add the gravity.
@@ -70,3 +75,14 @@ func _physics_process(delta: float) -> void:
 	# 	print("target_position: ", target_position)
 
 	move_and_slide()
+
+func pickup_item(node: Node) -> void:
+	if (item):
+		print("already holding item")
+		return
+	
+	item = node
+	add_child(item)
+	# TODO: handle directions
+	item.position.y += 10
+	item.position.x -= 8
