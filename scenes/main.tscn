@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://j6fd65vwcnil"]
+[gd_scene load_steps=45 format=3 uid="uid://j6fd65vwcnil"]
 
 [ext_resource type="Texture2D" uid="uid://uv1h7wgx6t13" path="res://assets/furniture/floorFull_SE.png" id="1_gth3s"]
 [ext_resource type="Texture2D" uid="uid://mf3plbjbiee7" path="res://assets/furniture/kitchenSink_SE.png" id="2_a6u06"]
@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://bd0crbhgi4oko" path="res://assets/food and kitchenware icons/FOOD.png" id="15_8yelj"]
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="15_unelf"]
 [ext_resource type="Texture2D" uid="uid://dfmervhhhyd3b" path="res://assets/Isometric_Frog_Character/CharacterSheet_CharacterFront.png" id="15_xwmhl"]
+[ext_resource type="Texture2D" uid="uid://qahgxmjidt62" path="res://assets/Isometric_Frog_Character/CharacterSheet_FroggoBack.png" id="18_c78de"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j6a84"]
 texture = ExtResource("1_gth3s")
@@ -81,6 +82,42 @@ region = Rect2(700, 700, 350, 350)
 atlas = ExtResource("15_xwmhl")
 region = Rect2(1050, 700, 350, 350)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0lkp"]
+atlas = ExtResource("18_c78de")
+region = Rect2(0, 0, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bgst0"]
+atlas = ExtResource("18_c78de")
+region = Rect2(350, 0, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_743hk"]
+atlas = ExtResource("18_c78de")
+region = Rect2(700, 0, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0mw77"]
+atlas = ExtResource("18_c78de")
+region = Rect2(1050, 0, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_57nyg"]
+atlas = ExtResource("18_c78de")
+region = Rect2(1400, 0, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qqbq"]
+atlas = ExtResource("18_c78de")
+region = Rect2(0, 350, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7u4a1"]
+atlas = ExtResource("18_c78de")
+region = Rect2(350, 350, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ohir1"]
+atlas = ExtResource("18_c78de")
+region = Rect2(700, 350, 350, 350)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lccry"]
+atlas = ExtResource("18_c78de")
+region = Rect2(1050, 350, 350, 350)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_ghr1y"]
 animations = [{
 "frames": [{
@@ -122,6 +159,33 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4i2q6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0lkp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bgst0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_743hk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0mw77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_57nyg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qqbq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7u4a1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ohir1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lccry")
 }],
 "loop": true,
 "name": &"default",
@@ -130,13 +194,13 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_me188"]
 radius = 25.0
-height = 100.0
+height = 60.0
 
 [node name="Node2D" type="Node2D"]
 y_sort_enabled = true
 
 [node name="Sink" type="Sprite2D" parent="."]
-position = Vector2(54, 60.5)
+position = Vector2(-73, 62)
 texture = ExtResource("2_a6u06")
 
 [node name="Box" type="Sprite2D" parent="."]
@@ -156,6 +220,7 @@ y_sort_enabled = true
 
 [node name="CounterSprite" type="Sprite2D" parent="Counter"]
 position = Vector2(152, 65.5)
+scale = Vector2(0.75, 0.75)
 texture = ExtResource("6_r2b3v")
 
 [node name="Sprite2D" type="Sprite2D" parent="Counter/CounterSprite"]
@@ -195,8 +260,8 @@ region_enabled = true
 region_rect = Rect2(78, 376, 23, 14)
 
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="Counter"]
-position = Vector2(152, 65.5)
-polygon = PackedVector2Array(-1, -19.5, 33, 7.5, -1, 31.5, -33, 9.5)
+position = Vector2(153, 65)
+polygon = PackedVector2Array(-1, -23, 29, 4, -2, 24, -29, 5)
 
 [node name="CoffeeMachine" type="Sprite2D" parent="."]
 position = Vector2(75, 150.5)
@@ -253,7 +318,8 @@ script = ExtResource("15_unelf")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_ghr1y")
+frame = 13
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(2, 0)
+position = Vector2(3, 20)
 shape = SubResource("CapsuleShape2D_me188")

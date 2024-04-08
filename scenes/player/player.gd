@@ -56,7 +56,7 @@ func _physics_process(delta: float) -> void:
 	if direction.y == 0:
 		velocity.y = move_toward(velocity.y, 0, SPEED / 2)
 	
-	if velocity.abs().x == SPEED and velocity.abs().y == SPEED:
+	if direction != Vector2i.ZERO and velocity.abs().x == SPEED and velocity.abs().y == SPEED:
 		velocity = velocity * 0.75
 
 	# if direction:
