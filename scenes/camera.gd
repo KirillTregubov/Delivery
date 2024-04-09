@@ -1,25 +1,30 @@
 extends Camera2D
 
 var TARGET_SIZE = Vector2(ProjectSettings.get_setting("display/window/size/viewport_width"), ProjectSettings.get_setting("display/window/size/viewport_height"))
-const MIN_SCALING = 1
+var SCALE: float = 1.0
+const MIN_SCALING: int = 1
 
+func scale_window():
+	var window := get_window() as Window
+	var retina_scale = DisplayServer.screen_get_scale()
+	if (window.content_scale_factor != retina_scale):
+		SCALE = retina_scale / window.content_scale_factor
+		window.size = window.size * SCALE
+		window.move_to_center()
 
 func change_zoom(new_zoom: float) -> void:
 	set_zoom(Vector2(new_zoom, new_zoom))
 
-
 func size_changed() -> void:
 	var new_zoom = max(get_viewport().size.x / TARGET_SIZE.x, get_viewport().size.y / TARGET_SIZE.y)
-	change_zoom(max(new_zoom / 2, MIN_SCALING))
+	change_zoom(max(new_zoom / 2, MIN_SCALING * SCALE))
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	get_window().set_min_size(TARGET_SIZE)
+	scale_window()
+	get_window().set_min_size(TARGET_SIZE * SCALE)
 	
 	size_changed()
 	get_viewport().connect("size_changed", size_changed)
-
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta: float) -> void:

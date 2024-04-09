@@ -5,6 +5,10 @@ const SPEED = 200.0
 
 @onready var map = $"../FloorTileMap"
 var item = null
+var is_interacting = false
+var cancel_interacting = false
+# var item_lock: Mutex = Mutex.new()
+var task_queue = Task.create_queue() # as TaskQueue
 
 #const JUMP_VELOCITY = -400.0
 #
@@ -14,10 +18,26 @@ var item = null
 func _ready() -> void:
 	pass
 
-#func _process(delta: float) -> void:
-	#pass
+func _process(_delta: float) -> void:
+	if Input.is_action_just_pressed("ui_interact"):
+		is_interacting = true
+		cancel_interacting = false
+	elif Input.is_action_just_released("ui_interact"):
+		is_interacting = false
+		cancel_interacting = false
 
-func _physics_process(delta: float) -> void:
+	if task_queue.size > 0:
+		var task = get_next_task()
+		if task:
+			task.execute()
+
+		# if (is_interacting)
+		# is_interacting = false
+	
+	if cancel_interacting:
+		is_interacting = false
+
+func _physics_process(_delta: float) -> void:
 	## Add the gravity.
 	#if not is_on_floor():
 		#velocity.y += gravity * delta
@@ -76,7 +96,22 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
+func queue_task(task: Task, priority: Task.Priorities) -> void:
+	cancel_interacting = true
+	task_queue.add_task(task, priority)
+
+func get_next_task() -> Task:
+	return task_queue.get_task()
+
+func can_interact() -> bool:
+	return is_interacting # and item_lock.try_lock()
+
+func reset_interact() -> void:
+	is_interacting = false
+
 func pickup_item(node: Node) -> void:
+	reset_interact()
+
 	if (item):
 		print("already holding item")
 		return
@@ -86,3 +121,16 @@ func pickup_item(node: Node) -> void:
 	# TODO: handle directions
 	item.position.y += 10
 	item.position.x -= 8
+
+func get_item(item_type: int) -> Node:
+	if not (item and typeof(item) == item_type):
+		return null
+	
+	return item
+
+func remove_item() -> void:
+	if not item:
+		return
+	
+	remove_child(item)
+	item = null

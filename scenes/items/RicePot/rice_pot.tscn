@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://1wvf5fmji5pq"]
+
+[ext_resource type="Script" path="res://scenes/items/RicePot/rice_pot.gd" id="1_2jqmi"]
+[ext_resource type="Texture2D" uid="uid://bd0crbhgi4oko" path="res://assets/food and kitchenware icons/FOOD.png" id="2_ringn"]
+
+[sub_resource type="Theme" id="Theme_74khm"]
+default_font_size = 16
+
+[node name="RicePot" type="Node2D"]
+script = ExtResource("1_2jqmi")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("2_ringn")
+region_enabled = true
+region_rect = Rect2(317, 656, 18, 17)
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_74khm")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+horizontal_alignment = 1
