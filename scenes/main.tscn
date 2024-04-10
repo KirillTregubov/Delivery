@@ -47,7 +47,11 @@ texture = ExtResource("4_0k31g")
 position = Vector2(30, 150.5)
 texture = ExtResource("5_w1rkt")
 
+[node name="Counter2" parent="." instance=ExtResource("5_untfm")]
+position = Vector2(333, 35)
+
 [node name="Counter" parent="." instance=ExtResource("5_untfm")]
+position = Vector2(153, 166)
 
 [node name="CoffeeMachine" type="Sprite2D" parent="."]
 position = Vector2(75, 150.5)
@@ -62,7 +66,7 @@ position = Vector2(35, 282.5)
 texture = ExtResource("9_1tlke")
 
 [node name="Stove2" parent="." instance=ExtResource("10_m0a3o")]
-position = Vector2(459, 176)
+position = Vector2(464, 185)
 
 [node name="Stove" parent="." instance=ExtResource("10_m0a3o")]
 position = Vector2(239, 95)
@@ -72,7 +76,7 @@ position = Vector2(148, 283)
 texture = ExtResource("11_4rp0a")
 
 [node name="CabinetUpper" parent="." instance=ExtResource("12_4aocj")]
-position = Vector2(294, 66)
+position = Vector2(295, 65)
 
 [node name="CabinetUpper2" parent="." instance=ExtResource("12_4aocj")]
 position = Vector2(199, 136)
@@ -90,6 +94,7 @@ layer_0/tile_data = PackedInt32Array(-65537, 1, 0, 0, 1, 0, -65536, 1, 0, -13107
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(320, 180)
+scale = Vector2(0.980877, 1)
 limit_left = -400
 limit_top = -200
 limit_right = 1040
@@ -99,7 +104,7 @@ editor_draw_limits = true
 script = ExtResource("14_hetk2")
 
 [node name="Player" parent="." instance=ExtResource("15_srj6w")]
-position = Vector2(330, 78)
+position = Vector2(330, 153)
 
 [node name="Freezer" type="StaticBody2D" parent="."]
 y_sort_enabled = true

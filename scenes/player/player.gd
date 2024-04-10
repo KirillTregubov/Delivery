@@ -29,10 +29,10 @@ func _process(_delta: float) -> void:
 	if task_queue.size > 0:
 		var task = get_next_task()
 		if task:
-			task.execute()
-
-		# if (is_interacting)
-		# is_interacting = false
+			var response = task.execute()
+			if response is bool and response:
+				task_queue.clear()
+			print('response ', response)
 	
 	if cancel_interacting:
 		is_interacting = false
@@ -106,24 +106,21 @@ func get_next_task() -> Task:
 func can_interact() -> bool:
 	return is_interacting # and item_lock.try_lock()
 
-func reset_interact() -> void:
-	is_interacting = false
-
-func pickup_item(node: Node) -> void:
-	reset_interact()
-
+func pickup_item(node: Node) -> bool:
 	if (item):
-		print("already holding item")
-		return
+		print("Already holding item")
+		return false
 	
 	item = node
 	add_child(item)
 	# TODO: handle directions
+	item.position = Vector2.ZERO
 	item.position.y += 10
 	item.position.x -= 8
+	return true
 
-func get_item(item_type: int) -> Node:
-	if not (item and typeof(item) == item_type):
+func get_item(item_type = null) -> Node:
+	if not (item and not item_type or (item.has_meta("item_type") and item.get_meta("item_type") == item_type)):
 		return null
 	
 	return item

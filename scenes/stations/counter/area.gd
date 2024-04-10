@@ -2,45 +2,38 @@ extends Area2D
 
 var player: Player
 @onready var placed_items: Node2D = $"../PlacedItems"
-@onready var rice_pot: PackedScene = preload ("res://scenes/items/RicePot/rice_pot.tscn")
 
 func place_item() -> bool:
-	var item = player.get_item("RiceJar")
+	var item = player.get_item()
 	if item:
 		if placed_items.get_child_count() > 0:
 			print("Already placed item")
 			return false
 		player.remove_item()
-		var new_item = rice_pot.instantiate() as RicePot
-		placed_items.add_child(new_item)
-		new_item.name = "Pot"
-		new_item.position.y -= 16
-		new_item.position.x -= 4
+		placed_items.add_child(item)
+		item.position = Vector2.ZERO
+		item.position.y -= 16
 		return true
 	
 	return false
 
 func pickup_item() -> bool:
 	var item = placed_items.get_child(0)
-	# .has_meta("item_type") and item.get_meta("item_type") == "RicePot"
-	if item and item.is_done():
-		item.finish()
+	if item:
 		placed_items.remove_child(item)
-		player.pickup_item(item)
-		return true
-	
+		if player.pickup_item(item):
+			return true
+		else:
+			placed_items.add_child(item)
+			return false
 	return false
-	# if item:
-	# 	player.reset_interact()
-	# 	player.add_item(item)
-	# 	item.queue_free()
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+# func _ready() -> void:
+# 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta):
+func _process(delta: float) -> void:
 	if player and player.can_interact():
 		var callback: Callable
 		if placed_items.get_child_count() == 0:
@@ -49,10 +42,10 @@ func _process(_delta):
 			callback = pickup_item
 		player.queue_task(Task.new(callback), Task.Priorities.NORMAL)
 
-func _on_body_entered(body):
+func _on_body_entered(body: Node2D) -> void:
 	if typeof(body) == typeof(Player):
 		player = body
 
-func _on_body_exited(body):
+func _on_body_exited(body: Node2D) -> void:
 	if body == player:
 		player = null

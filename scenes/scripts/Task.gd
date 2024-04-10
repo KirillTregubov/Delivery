@@ -32,21 +32,23 @@ class TaskQueue:
 				size -= 1
 				return queue[priority].pop_front()
 		return null
+	
+	func clear():
+		self._init()
 
 static func create_queue():
 	return TaskQueue.new()
 
-var name: String
 var callback: Callable
 # var priority: int
-	
-func _init(_name: String, _callback: Callable): # , _priority: int
-	self.name = _name
+
+func _init(_callback: Callable): # _name: String, , _priority: int
+	# self.name = _name
 	self.callback = _callback
 	# self.priority = _priority
 
 func execute():
-	callback.call()
+	return callback.call()
 
 # func _init(name: String, callback: Callable):
 # 	self.name = name
