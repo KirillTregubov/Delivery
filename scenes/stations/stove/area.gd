@@ -5,8 +5,8 @@ var player: Player
 @onready var rice_pot: PackedScene = preload ("res://scenes/items/RicePot/rice_pot.tscn")
 
 func place_item() -> bool:
-	var item = player.get_item("RiceJar")
-	if item:
+	var item = player.get_item()
+	if item and item.has_meta("targets") and item.get_meta("targets").find("Stove") != - 1:
 		if placed_items.get_child_count() > 0:
 			print("Already placed item")
 			return false
@@ -24,10 +24,14 @@ func pickup_item() -> bool:
 	var item = placed_items.get_child(0)
 	# .has_meta("item_type") and item.get_meta("item_type") == "RicePot"
 	if item and item.is_done():
-		item.finish()
 		placed_items.remove_child(item)
-		player.pickup_item(item)
-		return true
+
+		if player.pickup_item(item):
+			item.finish()
+			return true
+		else:
+			placed_items.add_child(item)
+			return false
 	
 	return false
 	# if item:
@@ -47,7 +51,7 @@ func _process(_delta):
 			callback = place_item
 		else:
 			callback = pickup_item
-		player.queue_task(Task.new(callback), Task.Priorities.NORMAL)
+		player.queue_task(Task.new(callback), Task.Priorities.HIGH)
 
 func _on_body_entered(body):
 	if typeof(body) == typeof(Player):

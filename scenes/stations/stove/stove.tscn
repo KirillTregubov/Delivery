@@ -9,7 +9,7 @@
 texture = ExtResource("1_71fni")
 
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(0, -26, 42, 3, 0, 35, -41, 8)
+polygon = PackedVector2Array(0, -26, 42, 2, 0, 35, -41, 8)
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 2

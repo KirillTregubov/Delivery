@@ -20,6 +20,10 @@ func place_item() -> bool:
 func pickup_item() -> bool:
 	var item = placed_items.get_child(0)
 	if item:
+		if item.has_meta("targets") and item.get_meta("targets").find("CuttingBoard") != - 1:
+			print('here')
+			return item.cut()
+		
 		placed_items.remove_child(item)
 		if player.pickup_item(item):
 			return true

@@ -1,10 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://1wvf5fmji5pq"]
+[gd_scene load_steps=5 format=3 uid="uid://1wvf5fmji5pq"]
 
 [ext_resource type="Script" path="res://scenes/items/RicePot/rice_pot.gd" id="1_2jqmi"]
 [ext_resource type="Texture2D" uid="uid://bd0crbhgi4oko" path="res://assets/food and kitchenware icons/FOOD.png" id="2_ringn"]
-
-[sub_resource type="Theme" id="Theme_74khm"]
-default_font_size = 16
+[ext_resource type="Texture2D" uid="uid://bhtr21clx7a8c" path="res://assets/thirdparty/healthbarUnder.png" id="3_2miln"]
+[ext_resource type="Texture2D" uid="uid://5hy2rhl0ubkj" path="res://assets/thirdparty/healthbarProgress.png" id="4_7koib"]
 
 [node name="RicePot" type="Node2D"]
 script = ExtResource("1_2jqmi")
@@ -17,13 +16,14 @@ region_rect = Rect2(317, 656, 18, 17)
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="Label" type="Label" parent="."]
-anchors_preset = 15
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+anchors_preset = 14
+anchor_top = 0.5
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.5
+offset_top = -5.0
+offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = SubResource("Theme_74khm")
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 4
-horizontal_alignment = 1
+texture_under = ExtResource("3_2miln")
+texture_progress = ExtResource("4_7koib")

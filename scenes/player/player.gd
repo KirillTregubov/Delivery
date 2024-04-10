@@ -107,6 +107,7 @@ func can_interact() -> bool:
 	return is_interacting # and item_lock.try_lock()
 
 func pickup_item(node: Node) -> bool:
+	print('picking up ', node, ' ', item)
 	if (item):
 		print("Already holding item")
 		return false
@@ -119,8 +120,8 @@ func pickup_item(node: Node) -> bool:
 	item.position.x -= 8
 	return true
 
-func get_item(item_type = null) -> Node:
-	if not (item and not item_type or (item.has_meta("item_type") and item.get_meta("item_type") == item_type)):
+func get_item(item_type=null) -> Node:
+	if not (item and (not item_type or (item.has_meta("item_type") and item.get_meta("item_type") == item_type))):
 		return null
 	
 	return item

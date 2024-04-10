@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckn5ganqgfjip"]
+
+[ext_resource type="Texture2D" uid="uid://cei1vvltc32p" path="res://assets/custom/trash.png" id="1_0wq10"]
+[ext_resource type="Script" path="res://scenes/stations/trash/area.gd" id="2_jq5jv"]
+
+[node name="Trash2" type="StaticBody2D"]
+
+[node name="Trash" type="Sprite2D" parent="."]
+texture = ExtResource("1_0wq10")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, 5)
+polygon = PackedVector2Array(-8, 0, 0, 6, 8, 0, 0, -7)
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+monitorable = false
+script = ExtResource("2_jq5jv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(-14, -19)
+polygon = PackedVector2Array(14, 9, 26, 18, 26, 36, 15, 44, 2, 35, 2, 18)
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]
