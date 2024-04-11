@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://fgpekowkxd8p"]
+
+[ext_resource type="Texture2D" uid="uid://b1mgavekhlouk" path="res://assets/furniture/kitchenStoveElectric_SE.png" id="1_71fni"]
+[ext_resource type="Script" path="res://source/stations/stove/area.gd" id="2_yd7jw"]
+
+[node name="Stove" type="StaticBody2D"]
+
+[node name="StoveElectric" type="Sprite2D" parent="."]
+texture = ExtResource("1_71fni")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -26, 42, 2, 0, 35, -41, 8)
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+monitorable = false
+script = ExtResource("2_yd7jw")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(3, 3)
+polygon = PackedVector2Array(4, 34, 27, 17, 36, 27, 15, 44)
+
+[node name="PlacedItems" type="Node2D" parent="."]
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]

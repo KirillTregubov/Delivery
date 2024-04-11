@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckvwrqadpspdq"]
+
+[ext_resource type="Texture2D" uid="uid://cyr8glrcqkwqb" path="res://assets/custom/salmon.png" id="1_cvhcn"]
+[ext_resource type="Script" path="res://source/items/SalmonSashimi/salmon_sashimi.gd" id="1_gcrei"]
+
+[node name="SalmonSashimi" type="Node2D"]
+script = ExtResource("1_gcrei")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(4, 4)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(-2.86827, 9.13173)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(11, -1)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(-4.01114, -5.87942)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(-10.8794, -0.747686)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(2.98886, -10.8794)
+rotation = 0.837758
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cvhcn")

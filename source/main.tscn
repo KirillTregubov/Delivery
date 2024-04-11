@@ -1,0 +1,144 @@
+[gd_scene load_steps=20 format=3 uid="uid://j6fd65vwcnil"]
+
+[ext_resource type="Texture2D" uid="uid://uv1h7wgx6t13" path="res://assets/furniture/floorFull_SE.png" id="1_gth3s"]
+[ext_resource type="Texture2D" uid="uid://mf3plbjbiee7" path="res://assets/furniture/kitchenSink_SE.png" id="2_a6u06"]
+[ext_resource type="Texture2D" uid="uid://nrwjijmgsubv" path="res://assets/furniture/cardboardBoxClosed_SE.png" id="3_6pjrv"]
+[ext_resource type="Texture2D" uid="uid://bdttu6hbcknj8" path="res://assets/furniture/cardboardBoxOpen_SE.png" id="4_0k31g"]
+[ext_resource type="PackedScene" uid="uid://dr7a12spcu6a" path="res://source/stations/counter/counter.tscn" id="5_untfm"]
+[ext_resource type="Texture2D" uid="uid://b5y8fufn7w7jd" path="res://assets/furniture/kitchenBlender_SE.png" id="5_w1rkt"]
+[ext_resource type="Texture2D" uid="uid://2l7tqfetg8jt" path="res://assets/furniture/kitchenCoffeeMachine_SE.png" id="7_7viyn"]
+[ext_resource type="Texture2D" uid="uid://bn38egcaagn73" path="res://assets/furniture/kitchenFridgeLarge_SE.png" id="8_rdu4v"]
+[ext_resource type="Texture2D" uid="uid://clkv0u5ubf514" path="res://assets/furniture/kitchenMicrowave_SE.png" id="9_1tlke"]
+[ext_resource type="PackedScene" uid="uid://fgpekowkxd8p" path="res://source/stations/stove/stove.tscn" id="10_m0a3o"]
+[ext_resource type="Texture2D" uid="uid://bw25rpmgyugip" path="res://assets/furniture/kitchenStove_SE.png" id="11_4rp0a"]
+[ext_resource type="PackedScene" uid="uid://ckn5ganqgfjip" path="res://source/stations/trash/Trash.tscn" id="11_wkccs"]
+[ext_resource type="PackedScene" uid="uid://ccwxgiqkeocda" path="res://source/stations/cabinet/cabinet_upper.tscn" id="12_4aocj"]
+[ext_resource type="Script" path="res://source/camera.gd" id="14_hetk2"]
+[ext_resource type="PackedScene" uid="uid://bob2qfhv6qgqo" path="res://source/player/player.tscn" id="15_srj6w"]
+[ext_resource type="PackedScene" uid="uid://b45wq7iqv86gs" path="res://source/stations/freezer/freezer.tscn" id="16_fsup4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j6a84"]
+texture = ExtResource("1_gth3s")
+texture_region_size = Vector2i(208, 152)
+use_texture_padding = false
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_u6bx2"]
+tile_shape = 1
+tile_size = Vector2i(208, 147)
+sources/1 = SubResource("TileSetAtlasSource_j6a84")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hwmte"]
+size = Vector2(1520, 38)
+
+[node name="Main" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Sink" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-73, 62)
+texture = ExtResource("2_a6u06")
+
+[node name="Box" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(703, 63.5)
+texture = ExtResource("3_6pjrv")
+
+[node name="BoxOpen" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(780, 71.5)
+texture = ExtResource("4_0k31g")
+
+[node name="Blender" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(30, 150.5)
+texture = ExtResource("5_w1rkt")
+
+[node name="Counter2" parent="." instance=ExtResource("5_untfm")]
+position = Vector2(343, 62)
+
+[node name="Counter" parent="." instance=ExtResource("5_untfm")]
+position = Vector2(163, 193)
+
+[node name="CoffeeMachine" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(75, 150.5)
+texture = ExtResource("7_7viyn")
+
+[node name="Fridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(571.5, 270)
+texture = ExtResource("8_rdu4v")
+
+[node name="Microwave" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(35, 282.5)
+texture = ExtResource("9_1tlke")
+
+[node name="Stove" parent="." instance=ExtResource("10_m0a3o")]
+position = Vector2(249, 122)
+
+[node name="StoveGas" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(148, 283)
+texture = ExtResource("11_4rp0a")
+
+[node name="CabinetUpper" parent="." instance=ExtResource("12_4aocj")]
+position = Vector2(305, 92)
+
+[node name="CabinetUpper3" parent="." instance=ExtResource("12_4aocj")]
+position = Vector2(456, 201)
+
+[node name="FloorTileMap" type="TileMap" parent="."]
+y_sort_enabled = true
+tile_set = SubResource("TileSet_u6bx2")
+format = 2
+layer_0/y_sort_enabled = true
+layer_0/z_index = -1
+layer_0/tile_data = PackedInt32Array(-65537, 1, 0, 0, 1, 0, -65536, 1, 0, -131072, 1, 0, 131071, 1, 0, 65535, 1, 0, -131071, 1, 0, -65535, 1, 0, -131070, 1, 0, -65534, 1, 0, -131069, 1, 0, -65533, 1, 0, -131068, 1, 0, -65532, 1, 0, -131067, 1, 0, 5, 1, 0, 131077, 1, 0, 262149, 1, 0, 458756, 1, 0, 458755, 1, 0, 458754, 1, 0, 458753, 1, 0, 458752, 1, 0, 524287, 1, 0, 458751, 1, 0, 393215, 1, 0, 327679, 1, 0, 262143, 1, 0, 196607, 1, 0, 65536, 1, 0, 131072, 1, 0, 262144, 1, 0, 393216, 1, 0, 327680, 1, 0, 196608, 1, 0, 131073, 1, 0, 1, 1, 0, 65537, 1, 0, 196609, 1, 0, 262145, 1, 0, 327681, 1, 0, 393217, 1, 0, 262146, 1, 0, 131074, 1, 0, 65538, 1, 0, 3, 1, 0, 131075, 1, 0, 196611, 1, 0, 262147, 1, 0, 327683, 1, 0, 393219, 1, 0, 393218, 1, 0, 2, 1, 0, 65539, 1, 0, 327682, 1, 0, 4, 1, 0, 65540, 1, 0, 131076, 1, 0, 196612, 1, 0, 262148, 1, 0, 196610, 1, 0, 327684, 1, 0, 393220, 1, 0, -196604, 1, 0, -262140, 1, 0, -196605, 1, 0, -262141, 1, 0, -196606, 1, 0, -262142, 1, 0, -196607, 1, 0, -262143, 1, 0, -196608, 1, 0, -262144, 1, 0, -131073, 1, 0, -196609, 1, 0, -131074, 1, 0, -196610, 1, 0, -131075, 1, 0, -65538, 1, 0, -2, 1, 0, 65534, 1, 0, -3, 1, 0, 131070, 1, 0, 196606, 1, 0, 131069, 1, 0, 262142, 1, 0, 327678, 1, 0, 262141, 1, 0, 393214, 1, 0, 458750, 1, 0, 393213, 1, 0, 524286, 1, 0, 524285, 1, 0, 393221, 1, 0, -1, 1, 0)
+
+[node name="Trash" parent="." instance=ExtResource("11_wkccs")]
+position = Vector2(307, 269)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(320, 180)
+scale = Vector2(0.980877, 1)
+limit_left = -400
+limit_top = -200
+limit_right = 1040
+limit_bottom = 560
+position_smoothing_enabled = true
+editor_draw_limits = true
+script = ExtResource("14_hetk2")
+
+[node name="Player" parent="." instance=ExtResource("15_srj6w")]
+position = Vector2(330, 153)
+
+[node name="Freezer2" parent="." instance=ExtResource("16_fsup4")]
+position = Vector2(504, 155)
+
+[node name="Freezer" parent="." instance=ExtResource("16_fsup4")]
+position = Vector2(208, 153)
+
+[node name="Bounds" type="StaticBody2D" parent="."]
+position = Vector2(-395, 192)
+collision_layer = 4
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bounds"]
+position = Vector2(712, 298)
+shape = SubResource("RectangleShape2D_hwmte")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Bounds"]
+position = Vector2(712, -321)
+shape = SubResource("RectangleShape2D_hwmte")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Bounds"]
+position = Vector2(155, 163)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_hwmte")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Bounds"]
+position = Vector2(1274, 163)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_hwmte")

@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://cq1oosn3aeeeq"]
+
+[ext_resource type="Texture2D" uid="uid://bd0crbhgi4oko" path="res://assets/food and kitchenware icons/FOOD.png" id="1_8pdw4"]
+[ext_resource type="Script" path="res://source/items/SalmonSushi/salmon_sushi.gd" id="1_dswnu"]
+
+[node name="SalmonSushi" type="Node2D"]
+script = ExtResource("1_dswnu")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(-12, 1)
+rotation = 0.837758
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
+
+[node name="Sprite2" type="Sprite2D" parent="."]
+position = Vector2(-5, -5)
+rotation = 0.837758
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
+
+[node name="Sprite3" type="Sprite2D" parent="."]
+position = Vector2(2, -11)
+rotation = 0.837758
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
+
+[node name="Sprite7" type="Sprite2D" parent="."]
+position = Vector2(-2.26179, 11.9381)
+rotation = 0.838555
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
+
+[node name="Sprite8" type="Sprite2D" parent="."]
+position = Vector2(4.73821, 5.93805)
+rotation = 0.838555
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
+
+[node name="Sprite9" type="Sprite2D" parent="."]
+position = Vector2(11.7382, -0.0619526)
+rotation = 0.838555
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_8pdw4")
+region_enabled = true
+region_rect = Rect2(78, 376, 23, 14)
